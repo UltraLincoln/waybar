@@ -12,9 +12,9 @@
         "hyprland/workspaces",
         "hyprland/submap",
        "keyboard-state",
-       /*"sway/scratchpad",
+       //"sway/scratchpad",
         "custom/media",
-        "mpd"*/
+        "mpd",
         "mpris"
     ],
     "modules-center": [
@@ -92,7 +92,7 @@
         "format": "<span style=\"italic\">{}</span>"
     },
     "hyprland/window": {
-        "max-length": 40,
+        "max-length": 30,
         "icon": true,
         "icon-size": 20
     },
@@ -102,7 +102,7 @@
         "format-icons": ["", ""],
         "tooltip": true,
         "tooltip-format": "{app}: {title}"
-    },
+    },*/
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
         "format-disconnected": "Disconnected ",
@@ -128,7 +128,7 @@
         },
         "tooltip-format": "MPD (connected)",
         "tooltip-format-disconnected": "MPD (disconnected)"
-    },*/
+    },
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
@@ -272,8 +272,9 @@
     },
 
     "mpris": {
-	    "format": "playrctld: {player_icon} {title} - {artist}",
-	    "format-paused": "playrctld: {status_icon} <i>{title} - {artist}</i>",
+        "max-length": 30,
+	    "format": "{player_icon} {title} - {artist}",
+	    "format-paused": "{status_icon} <i>{title} - {artist}</i>",
 	    "player-icons": {
 		    "default": "▶",
 	    	"mpv": "🎵"
