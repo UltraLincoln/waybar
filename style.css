@@ -327,28 +327,32 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    color: #ffffff;
+    background:rgba(40, 70, 80, 0.315);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20;
 }
 
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
+    background-color: #fa4d8d;
     color: #2d3436;
 }
 
-#mpd {
+#mpris {
     background-color: #66cc99;
     color: #2a5c45;
 }
 
-#mpd.disconnected {
+#mpris.disconnected {
     background-color: #f53c3c;
 }
 
-#mpd.stopped {
+#mpris.stopped {
     background-color: #90b1b1;
 }
 
-#mpd.paused {
+#mpris.paused {
     background-color: #51a37a;
 }
 
