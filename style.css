@@ -77,12 +77,12 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 15px 0 2px;
+    padding: 0 0 0 5px;
     background:transparent;
-    color: #ffffff;
+    color: rgba(163, 253, 255, 0.5);
 }
 #workspaces button.active {
-    color:#85ebff;
+    color:#54defa;
     box-shadow: inset 0 -2px #00abcd;
     background:rgba(13, 66, 83, 0.677);
     border-radius: 3px;
@@ -259,7 +259,7 @@ label:focus {
 }
 
 #pulseaudio.muted {
-    background-color: #eb008d;
+    background-color: #fa4d8d;
     color: #000000;
 }
 
@@ -269,7 +269,7 @@ label:focus {
 }
 
 #wireplumber.muted {
-    background-color: #f53c3c;
+    background-color: #fa4d8d;
 }
 
 #custom-media {
@@ -352,11 +352,11 @@ label:focus {
 }
 
 #mpris.stopped {
-    background-color: #90b1b1;
+    background-color: #1c4752;
 }
 
 #mpris.paused {
-    background-color: #51a0a3;
+    background-color: #64727D;
 }
 
 #language {

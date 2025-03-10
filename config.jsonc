@@ -45,7 +45,7 @@
          "disable-scroll": true,
          "all-outputs": true,
          "warp-on-scroll": false,
-         "format": "{name} {windows}",         
+         "format": "{name} {windows} ",                  
          "active-only": false,
          "persistent-workspaces": {
              "*": 4 // 4 workspaces by default on every monitor         
@@ -54,7 +54,8 @@
              "active": "󰨇",
              "urgent": "",
              "focused": "󱎴",
-             "default": "󰍹"
+             "default": "󰍹",
+             "empty": "󰍹"
          },
          "window-rewrite-default": "",
          "window-rewrite": {
